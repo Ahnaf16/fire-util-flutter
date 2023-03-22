@@ -9,13 +9,30 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
-  "main": "./extension.js",
+  "keywords": [
+    "flutter",
+    "dart"
+  ],
+  "activationEvents": [
+    "onLanguage:dart",
+    "onCommand:fire-util-flutter.helloWorld"
+  ],
+  "main": "src/extension.js",
   "contributes": {
-    "commands": [{
-      "command": "fire-util-flutter.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "fire-util-flutter.generateStaticFieldNames",
+        "title": "Generate Static Fields Names"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "fire-util-flutter.generateStaticFieldNames",
+          "group": "navigation"
+        }
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint .",
