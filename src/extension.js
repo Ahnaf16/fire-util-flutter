@@ -42,8 +42,6 @@ function generateStaticFieldNames() {
     const varNameFinal = `field${varNameUC}`;
 
     varNames.push(`\n  static const String ${varNameFinal} = '${varName}';`);
-
-    console.log(varNameFinal);
   }
 
   editor.edit((edit) =>
