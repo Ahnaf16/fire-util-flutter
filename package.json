@@ -2,11 +2,16 @@
   "name": "fire-util-flutter",
   "displayName": "Fire Util Flutter",
   "description": "utility for firebase and flutter",
+  "icon": "assets/logo.png",
   "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ahnaf16/fire-util-flutter"
   },
+  "author": {
+    "name": "Ahnaf"
+  },
+  "publisher": "Ahnaf-MARJ",
   "engines": {
     "vscode": "^1.76.0"
   },
