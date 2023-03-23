@@ -3,7 +3,7 @@
   "displayName": "Fire Util Flutter",
   "description": "utility for firebase and flutter",
   "icon": "assets/logo.png",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ahnaf16/fire-util-flutter"
